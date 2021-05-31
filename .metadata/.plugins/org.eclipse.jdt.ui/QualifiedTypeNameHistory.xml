@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="jdk.internal.misc.FileSystemOption"/>
+    <fullyQualifiedTypeName name="com.lg.studApp.model.Student"/>
+    <fullyQualifiedTypeName name="Lee.carApp.car.Car"/>
+    <fullyQualifiedTypeName name="Lee.carApp.rand.carAppRand"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="Lee.carApp.carApp.view.Menu"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="Lee.carApp.customer.Customer"/>
+    <fullyQualifiedTypeName name="Lee.carApp.handler.CarSellMgr"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+</qualifiedTypeNameHistroy>

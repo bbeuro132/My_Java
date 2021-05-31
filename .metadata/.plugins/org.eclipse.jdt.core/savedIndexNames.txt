@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\KB\Downloads\KB_study\java\java_lee\.metadata\.plugins\org.eclipse.jdt.core
+2499878056.index
+1612467481.index
+177508172.index
+299273985.index
+658568909.index

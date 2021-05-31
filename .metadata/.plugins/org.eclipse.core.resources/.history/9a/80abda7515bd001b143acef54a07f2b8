@@ -1,0 +1,37 @@
+package Lee.carApp;
+
+import java.util.ArrayList;
+
+import Lee.carApp.car.Car;
+import Lee.carApp.carApp.view.Menu;
+import Lee.carApp.customer.Customer;
+import Lee.carApp.rand.carAppRand;
+
+public class CarAppMain {
+
+	public static void main(String[] args) {	
+		Menu m = new Menu();
+		
+		while (true) {
+			switch (m.mainMenu()) {
+			case 1:
+				System.out.println("중고차 매매 현황보기");
+				break;
+			case 2:
+				System.out.println("중고차 매매 랜덤 자료 추가");
+				break;
+			case 3:
+				System.out.println("중고차 매매 수동 자료 추가");
+				break;
+			case 4:
+				System.out.println("프로그램 종료");
+				System.exit(0);
+				
+			}
+		}
+		
+		
+		
+	}
+
+}

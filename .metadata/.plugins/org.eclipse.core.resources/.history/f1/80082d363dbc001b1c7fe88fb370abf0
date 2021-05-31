@@ -1,0 +1,10 @@
+package com.lg.studApp.main;
+
+public class studMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

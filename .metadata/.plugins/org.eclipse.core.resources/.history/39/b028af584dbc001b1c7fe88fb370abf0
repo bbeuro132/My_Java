@@ -1,0 +1,62 @@
+package Lee.carApp.customer;
+
+import Lee.carApp.car.Car;
+
+public class Customer {
+	
+	private String name;
+	private String tel;
+	private String address;
+	
+	Car car = new Car();
+	
+	public Customer(String name, String tel, String address) {
+		super();
+		this.name = name;
+		this.tel = tel;
+		this.address = address;
+	}
+
+	public Customer() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getTel() {
+		return tel;
+	}
+	public void setTel(String tel) {
+		this.tel = tel;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	
+	public void printCarInfo() {
+
+		System.out.println("모델명 : " + car.getModel());
+		System.out.println("색상 : " + car.getColor());
+		System.out.println("연도 : " + car.getYear());
+		System.out.println("회사명 : " + car.getCompany());
+	}
+	
+	public void printCustomerInfo() {
+
+		System.out.println("이름 : " + name);
+		System.out.println("전화번호 : " + tel);
+		System.out.println("주소 : " + address);
+		
+	}
+	
+
+}

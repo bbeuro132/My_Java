@@ -1,0 +1,57 @@
+package Lee.carApp.handler;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import Lee.carApp.car.Car;
+import Lee.carApp.customer.Customer;
+import Lee.carApp.rand.carAppRand;
+
+public class CarSellMgr {
+	private static final ArrayList<Customer> NULL = null;
+	carAppRand r = new carAppRand();
+	Scanner s = new Scanner(System.in);
+	ArrayList<Customer> cuList = new ArrayList<Customer>();
+	
+	private int RandSelect;
+	
+	public void showSellinfo() {
+		
+		if (cuList == NULL) {
+			System.out.println("자료가 없습니다.");
+			return;
+		}
+		else {
+			for (Customer cu : cuList) {
+				cu.printCustomerInfo();
+			}
+		}
+		
+
+		
+	}
+	
+	public void randInsData() {
+		
+		System.out.print("몇 명의 자료를 생성하겠습니까? : ");
+		RandSelect = s.nextInt();
+		
+		for (int i = 0; i < RandSelect; i++) {
+			cuList.add(new Customer(r.randName(), r.randTell(), r.randAdd(), 
+					new Car(r.randModel(),
+					r.randColor(), r.randYear(), r.randCompany())
+					));
+		}	
+
+		System.out.println(RandSelect + "명 분의 데이터가 생성되었습니다.");
+	}
+	
+	public void insData() {
+		
+	}
+	
+	public void mainExit() {
+		System.exit(0);
+	}
+	
+}
